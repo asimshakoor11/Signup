@@ -1,0 +1,139 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container .width-50{
+    width: 50%;
+    height: 100vh;
+}
+
+.main-container .left{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.main-container .left .left-inner{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-container .left .left-inner .logo{ 
+    margin-bottom: 40px;
+}
+
+.main-container .left .left-inner .welcome h3{ 
+    color: #000929;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main-container .left .left-inner .welcome p{ 
+    color: #000929;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.main-container .left .left-inner .form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .left .left-inner .form form .form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.main-container .left .left-inner .form form .form-item label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000929;
+    margin-bottom: 10px;
+}
+
+.main-container .left .left-inner .form form .form-item input{
+    width: 320px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #E0DEF7;
+    gap: 10px;
+    background-color: #F7F7FD;
+}
+
+.main-container .left .left-inner .form form .form-item img{
+    position: absolute;
+    bottom: 11%;
+    right: 5%;
+}
+
+.main-container .left .left-inner .form form .form-item button{
+    width: 352px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #1771E6;
+    color: white;
+    border: 1px solid #1771E6;
+}
+
+.main-container .left .left-inner .google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDEB;
+}
+
+.main-container .left .left-inner .google p{
+    font-size: 16px;
+    color: #000929;
+    margin-left: 10px;
+}
+
+.main-container .left .left-inner .already-account{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-container .left .left-inner .already-account > :first-child{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6C727F;
+}
+.main-container .left .left-inner .already-account > :last-child{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000929;
+}
+
+.main-container .right img{
+    width: 100%;
+}
